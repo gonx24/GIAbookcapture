@@ -24,8 +24,8 @@ https://www.miiweb.com.ar/gemini-ai-book-capture/
 
 *   **Lenguaje:** Kotlin
 *   **UI:** Jetpack Compose
-*   **Inteligencia Artificial:** Google Gemini API - Google AI Studio Key)
-*   **Procesamiento de Imágenes:** (Mencionar si usas alguna librería específica, ej: CameraX, ML Kit para la captura/preparación)
+*   **Inteligencia Artificial:** Google Gemini API - Google AI Studio Key
+*   **Procesamiento de Imágenes:**
 *   **Arquitectura:** MVVM (Model-View-ViewModel) con Android Jetpack ViewModel
 *   **Base de Datos Local:** Room Persistence Library
 *   **Navegación:** Jetpack Navigation Component (Compose)
