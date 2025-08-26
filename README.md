@@ -1,6 +1,7 @@
 # Miiweb - Gemini AI Book Capture 📚✨
 
-<!-- Opcional: Si tienes un logo, considera añadirlo aquí -->
+https://www.miiweb.com.ar/gemini-ai-book-capture/
+
 <img src="https://www.miiweb.com.ar/img/logo.webp">
 
 **Digitaliza tu biblioteca personal sin esfuerzo con Miiweb "Gemini IA book Capture".** Saca una foto a la portada de un libro y deja que la inteligencia artificial de Gemini haga el resto. Extrae, edita y gestiona los datos de tus libros como nunca antes.
@@ -47,7 +48,7 @@
 1.  **Clona el repositorio:**
 2.  **Navega a la carpeta de la aplicación:**
 3.  **Ejecuta Android Studio e importa el proyecto:**
-4.  **Api Key de Google AI Studio: Modificar el archivo [local.properties] con la api correspondiente asi como el path del sdk **
+4.  **Api Key de Google AI Studio: Modificar el archivo [com/example/miiweb/BuildConfig.java] con la api correspondiente **
 6.  **Inicia la actividad principal:**
 5.. **Listo!**
 

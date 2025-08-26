@@ -55,23 +55,6 @@ class BakingViewModel (application: Application) : AndroidViewModel(application)
             }
         }
     }
-/*
-    private val libroDao: LibroDao
 
-    init {
-        val database = Room.databaseBuilder(
-            application,
-            AppDatabase::class.java,
-            "mi_base_de_datos"
-        ).build()
-        libroDao = database.libroDao()
-    }*/
-   /* fun guardarLibro(titulo: String, autor: String, editor: String, publicacion:String, edicion:String, isbn:String, categoria:String, descripcion:String) {
-    viewModelScope.launch {val nuevoLibro = Libro(titulo = titulo, autor = autor, editor = editor, publicacion = publicacion, edicion = edicion, isbn = isbn, categoria = categoria, descripcion = descripcion)
-            // Asegúrate de tener una referencia a libroDao en tu ViewModel
-            libroDao.insertar(nuevoLibro)
-            Log.d("MiEtiqueta", "Libro guardado en la base de datos")
-        }
-    }*/
 }
 
