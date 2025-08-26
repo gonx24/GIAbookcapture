@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Gemini AI Book Capture</string>
+    <string name="action_go">Analizar Con GEMIMI IA </string>
+    <string name="action_guardar">Guardar</string>
+    <string name="action_actualizar">Actualizar</string>
+    <string name="baking_title">Capturar Libro</string>
+    <string name="capture_desc">Saque dos fotos del libro</string>
+    <string name="datos_libro">Datos del Libro</string>
+    <string name="label_prompt">Prompt</string>
+    <string name="prompt_placeholder">Analizar la siguiente foto y extraer los datos visibles, si algún dato no está presente en la imagen buscarlo en internet Execpto para ISBN.  Presentar los datos en el siguiente orden, separados por nueva línea: Título, Autor(es), Editor, Fecha de publicación, Edición, ISBN , categoría y Descripción del libro.</string>
+    <string name="image1_description">Libro</string>
+    <string name="image2_description">Cookies</string>
+    <string name="image3_description">Cake</string>
+    <string name="results_placeholder">(Results will appear here)</string>
+</resources>
