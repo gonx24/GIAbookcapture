@@ -52,6 +52,6 @@ https://www.miiweb.com.ar/gemini-ai-book-capture/
     Abre el archivo local.properties (si no existe, créalo) y añade tu clave API de la siguiente manera:
     API_KEY="TU_CLAVE_API_AQUÍ"    
     Luego, en el archivo build.gradle (Module), asegúrate de que la clave se esté leyendo correctamente, por ejemplo, en un bloque buildConfigField.
-6.  Ejecuta la aplicación:
+5.  Ejecuta la aplicación:
     Conecta un dispositivo Android o un emulador. Haz clic en el botón de Run ( ▶️ ) en la barra de herramientas de Android Studio. La aplicación se instalará y se iniciará automáticamente.
 
