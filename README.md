@@ -48,16 +48,10 @@ https://www.miiweb.com.ar/gemini-ai-book-capture/
 1.  **Clona el repositorio:**
 2.  **Navega a la carpeta de la aplicación:**
 3.  **Ejecuta Android Studio e importa el proyecto:**
-4.  **Api Key de Google AI Studio: Modificar el archivo [com/example/miiweb/BuildConfig.java] con la api correspondiente **
-6.  **Inicia la actividad principal:**
-5.. **Listo!**
-
-
-### Configuración Modelo IA Gemini 
-1.  **Navega a la carpeta de la aplicación y ubica el archivo  [java/com/example/miiweb/BakingViewModel.kt], especificar el modelo a utilizar en modelName:
-'''
-private val generativeModel = GenerativeModel(
-    modelName = "gemini-1.5-flash",
-    apiKey = BuildConfig.apiKey
-    )
+4.  Configura la API Key de Google AI Studio:
+    Abre el archivo local.properties (si no existe, créalo) y añade tu clave API de la siguiente manera:
+    API_KEY="TU_CLAVE_API_AQUÍ"    
+    Luego, en el archivo build.gradle (Module), asegúrate de que la clave se esté leyendo correctamente, por ejemplo, en un bloque buildConfigField.
+6.  Ejecuta la aplicación:
+    Conecta un dispositivo Android o un emulador. Haz clic en el botón de Run ( ▶️ ) en la barra de herramientas de Android Studio. La aplicación se instalará y se iniciará automáticamente.
 
